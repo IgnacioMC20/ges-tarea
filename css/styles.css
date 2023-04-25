@@ -1,0 +1,82 @@
+button {
+  background-color: #4f17ab; /* color de fondo */
+  border: none; /* borde sin color */
+  color: white; /* color de texto */
+  padding: 10px 20px; /* tamaño del botón */
+  text-align: center; /* alinear el texto en el centro */
+  text-decoration: none; /* sin decoración de texto */
+  display: inline-block;
+  font-size: 16px; /* tamaño de fuente */
+  margin: 4px 2px; /* margen entre botones */
+  cursor: pointer;
+  transition-duration: 0.4s; /* duración de la transición */
+  }
+
+  button:hover {
+    background-color: #8400ff; /* color de fondo cuando el cursor está encima */
+  }
+  body {
+    background-image: linear-gradient(to bottom, #b9d7d7 0%, #ffffcc 100%); /* gradiente de colores */
+  }
+  .caja {
+    width: 200px; /* tamaño de la caja */
+    height: 200px;
+    background-color: white; /* color de fondo */
+    box-shadow: 10px 10px 5px grey; /* efecto de sombra */
+    }
+    @font-face {
+      font-family: 'MiFuente'; /* nombre de la fuente */
+      src: url('mifuentepersonalizada.ttf'); /* ruta del archivo de la fuente */
+    }
+    
+    body {
+      font-family: 'MiFuente', sans-serif; /* utilizar la fuente personalizada */
+    }
+        
+    .contenido {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+
+    section{
+      margin: 50px 10px;
+    }
+   
+    img{
+      display: none;
+    }
+
+    .comidas-favoritas {
+      background-color: #F4F4F4;
+      padding: 50px 0;
+    }
+    
+    .comida {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    
+    .comida img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    
+    .comida h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .comida p {
+      font-size: 18px;
+      text-align: center;
+      max-width: 400px;
+    }
+    
+    
