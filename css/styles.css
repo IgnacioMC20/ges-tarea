@@ -44,9 +44,6 @@ button {
       margin: 50px 10px;
     }
    
-    img{
-      display: none;
-    }
 
     .comidas-favoritas {
       background-color: #F4F4F4;
@@ -80,3 +77,67 @@ button {
     }
     
     
+    .perfil {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  
+  .fotoPerfil {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+  }
+  
+  .profile {
+      flex: 1;
+  }
+  
+  .profh2 {
+      margin-top: 0;
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  .profp {
+      margin-bottom: 0;
+      font-size: 16px;
+      line-height: 1.5;
+  }
+
+  .imgvj{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fab-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+  }
+  
+  .fab {
+    display: block;
+    width: 120px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    /* line-height: 48px; */
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fab:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  
